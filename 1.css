@@ -1,0 +1,29 @@
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+button {
+    margin-right: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 px 8px 16px;
+
+}
+a:link {
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+hr {
+    display: block;
+    border-width: 1px;
+    border-style: inset;
+    margin-top: 0.5em;
+
+}

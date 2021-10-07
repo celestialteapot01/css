@@ -1,3 +1,5 @@
+/*HEADER & NAVIGATION*/
+
 h2 {
     font-family: 'Courier New', Courier, monospace;
     color: red;
@@ -26,4 +28,11 @@ hr {
     border-style: inset;
     margin-top: 0.5em;
 
+}
+li{
+    display:inline;
+    margin-top: 0;
+}
+ul {
+    position: fixed;
 }

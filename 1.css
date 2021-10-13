@@ -1,25 +1,29 @@
 /*HEADER & NAVIGATION*/
 
-h2 {
+
+h2 { /*HEADER*/
     font-family: 'Courier New', Courier, monospace;
     color: red;
     font-size: 16px;
     letter-spacing: 2px;
+    margin-left: 40px;
+    margin-bottom: -5px;
 }
-button {
+
+button { /*NAV BUTTON*/
     margin-right: 10px;
     font-family:'Courier New', Courier, monospace;
     font-size: 14px;
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 px 8px 16px;
-
 }
+
 a:link {
     text-decoration: none;
-
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
 hr {
@@ -27,7 +31,6 @@ hr {
     border-width: 1px;
     border-style: inset;
     margin-top: 0.5em;
-
 }
 li{
     display:inline;
@@ -35,4 +38,40 @@ li{
 }
 ul {
     position: fixed;
+}
+
+
+/* PAGE FOOTER */
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+small {
+    margin-left: 40px ;
+    font-family:'Courier New', Courier, monospace 
+}
+
+/* SUB HEADINGS */
+
+h3 {
+    font-family:'Courier New', Courier, monospace;
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+/* CONTENT */
+
+p {
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+    margin-top: 20px; /* TEXT LOCATION */
+    margin-left: 40px; /* TEXT POSITION */
+}
+
+iframe {
+    margin-left: 40px;
 }

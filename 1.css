@@ -1,7 +1,7 @@
-/*HEADER & NAVIGATION*/
+/*NAVIGATION*/
 
 
-h2 { /*HEADER*/
+h2.nav { /* navigation header*/
     font-family: 'Courier New', Courier, monospace;
     color: red;
     font-size: 16px;
@@ -10,7 +10,7 @@ h2 { /*HEADER*/
     margin-bottom: -5px;
 }
 
-button { /*NAV BUTTON*/
+button { /* buttons */
     margin-right: 10px;
     font-family:'Courier New', Courier, monospace;
     font-size: 14px;
@@ -32,12 +32,9 @@ hr {
     border-style: inset;
     margin-top: 0.5em;
 }
-li{
+li.nav{ /*styles just the navigation list*/
     display:inline;
     margin-top: 0;
-}
-ul {
-    position: fixed;
 }
 
 
@@ -65,13 +62,29 @@ h3 {
 
 /* CONTENT */
 
-p {
-    font-family:'Courier New', Courier, monospace;
+p.first { /* The first paragraph needs to have spacing on the top margin */
+    font-family:Arial, Helvetica, sans-serif;
     color: black;
-    margin-top: 20px; /* TEXT LOCATION */
-    margin-left: 40px; /* TEXT POSITION */
+    margin-top: 20px; 
+    margin-left: 40px; 
 }
 
+p.main {
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 40px;
+}
+
+ul.main { /*to separate it from other list styles*/
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    list-style-type: none;
+
+}
+li.main{
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
 iframe {
     margin-left: 40px;
 }
